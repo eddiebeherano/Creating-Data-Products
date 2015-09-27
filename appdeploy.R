@@ -8,5 +8,7 @@ shinyapps::setAccountInfo(name='edwardbeherano',
 
 library(shinyapps)
 
-deployApp(appName = "Eddie app")
-shinyapps::deployApp('')
+deployApp(appName="some_name")
+
+library(shiny)
+runApp()
